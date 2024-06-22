@@ -1,0 +1,64 @@
+.task {
+    width: 15rem;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0.5rem;
+  }
+  
+  .task p {
+    margin: 0 0 0.5rem;
+  }
+  
+  .task-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  button.done-button,
+  .edit-button {
+    margin-top: auto; /* Размещаем кнопки внизу .task */
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  button.done-button {
+    background-color: #28a745; /* Light green background for Done button */
+  }
+  
+  button.done-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .edit-button {
+    background-color: #007bff; /* Blue background for Edit button */
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff;
+  }
+  
+  .like-button {
+    background-color: #878787;
+  }
+
+  .like-button:hover {
+    background-color: rgb(80, 80, 80);
+  }

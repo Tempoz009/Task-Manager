@@ -1,0 +1,32 @@
+.task {
+    width: 15rem;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .task-img {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .task p {
+    margin: 0 0 0.5rem;
+  }
+  
+  .task-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #done-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .task button {
+    display: flex;
+    justify-content: center;
+  }
